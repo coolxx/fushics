@@ -1,0 +1,515 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{-webkit-appearance: none;outline: none}
+select{-webkit-appearance: none;}
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../images/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+	overflow: hidden;
+    position: relative;
+}
+.banner img{
+	display: block;
+	width: 18.0rem;
+}
+.banner .a1{
+    position: absolute;
+    left:1.65rem;
+    bottom: 4.65rem;
+    width: 6.5rem;
+    height: 2.15rem;
+}
+.banner .a2{
+    position: absolute;
+    right:1.65rem;
+    bottom: 4.65rem;
+    width: 6.5rem;
+    height: 2.15rem;
+}
+.zg-main1{
+    height: 21.7rem;
+    background: url("../images/main1.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.main-tit{
+    height: 2.95rem;
+    text-indent: -249.975rem;
+    background: url("../images/m1.png") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main1 ul{
+    margin-left:0.125rem;
+    overflow: hidden;
+}
+.zg-main1 ul li{
+    float: left;
+    width: 7.9rem;
+    height: 7.475rem;
+    margin-left:0.65rem;
+    margin-top:1.0rem;
+    overflow: hidden;
+    position: relative;
+}
+.zg-main1 ul li p{
+    font-size:0.6rem;
+    color: #fff;
+    line-height:1.05rem;
+    margin-left:1.1rem;
+    margin-top:3.25rem;
+}
+.zg-main1 ul li a{
+    position: absolute;
+    left:0.95rem;
+    bottom:0;
+    width: 6.0rem;
+    height: 1.25rem;
+}
+.zg-main1 ul li:nth-child(1){
+    background: url("../images/m2.png") no-repeat center;
+    background-size: 7.925rem;
+}
+.zg-main1 ul li:nth-child(2){
+    background: url("../images/m3.png") no-repeat center;
+    background-size: 7.925rem;
+}
+.zg-main1 ul li:nth-child(3){
+    background: url("../images/m4.png") no-repeat center;
+    background-size: 7.925rem;
+}
+.zg-main1 ul li:nth-child(4){
+    background: url("../images/m5.png") no-repeat center;
+    background-size: 7.925rem;
+}
+.zg-main2{
+    height: 69.3rem;
+    background: url("../images/main2.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main2 .main-tit{
+    background: url("../images/m6.png") no-repeat center;
+    background-size: 18.0rem
+}
+.fsbz{
+    height: 6.25rem;
+    background: url("../images/m7.png") no-repeat center;
+    background-size: 17.5rem;
+    overflow: hidden;
+    margin-top:1.05rem;
+}
+.fsbz a{
+    display: block;
+    width: 6.0rem;
+    height: 1.25rem;
+    font-size:0.6rem;
+    text-align: center;
+    line-height:1.25rem;
+    font-weight:bold;
+    background: #ffbd3d;
+    border-radius: 0.6rem;
+    margin: 4.125rem auto 0;
+    color: #333;
+}
+.m2-a1{
+    height: 19.025rem;
+    background: url("../images/m11.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.m2-a1 a{
+    display: block;
+    width: 6.0rem;
+    height: 1.25rem;
+    margin: 16.35rem auto 0;
+}
+.m2-a2{
+    height: 19.075rem;
+    background: url("../images/m12.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.m2-a2 a{
+    display: block;
+    width: 6.0rem;
+    height: 1.25rem;
+    margin: 16.3rem auto 0;
+}
+.m2-a3{
+    height: 19.2rem;
+    background: url("../images/m13.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.m2-a3 a{
+    display: block;
+    width: 6.0rem;
+    height: 1.25rem;
+    margin: 16.2rem auto 0;
+}
+.zg-main3{
+    height: 21.725rem;
+    background: url("../images/main3.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.zg-main3 .main-tit{
+    background: url("../images/m14.png") no-repeat center;
+    background-size: 18.0rem
+}
+.m3-cont{
+    overflow: hidden;
+}
+.m3-cont li{
+    width: 17.35rem;
+    height: 4.55rem;
+    border:0.075rem solid #ebcf99;
+    border-radius: 0.7rem;
+    margin: 1.0rem auto 0;
+}
+.m3-cont li b{
+    float: left;
+    margin-left:0.3rem;
+    margin-top:0.6rem;
+    width: 3.35rem;
+    height: 3.35rem;
+    border-radius: 50%;
+    background: #ebcf99;
+    line-height:3.35rem;
+    text-align: center;
+}
+.m3-cont li b span{
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height:0.85rem;
+    font-weight:bold;
+    color: #333;
+    vertical-align: middle;
+}
+.m3-cont li p{
+    font-size:0.6rem;
+    line-height: 1.05rem;
+    color: #fff;
+    float: right;
+    margin-right: 1.6rem;
+    margin-top:0.475rem;
+}
+.m3-cont li a{
+    float: right;
+    margin-right: 4.55rem;
+    margin-top:0.425rem;
+    width: 6.0rem;
+    height: 1.25rem;
+    text-align: center;
+    line-height:1.25rem;
+    background: #ffbd3d;
+    border-radius: 0.6rem;
+    font-size:0.6rem;
+    font-weight:bold;
+    color: #333;
+}
+.zg-main4{
+    height: 32.9rem;
+    background: url("../images/main4.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main4 .main-tit{
+    background: url("../images/m15.png") no-repeat center;
+    background-size: 15.25rem;
+}
+.m4-cont{
+    overflow: hidden;
+    margin-left:-0.4rem;
+    width: 18.4rem;
+    margin-top: 20.5rem;
+}
+.m4-cont li{
+    float: left;
+    margin-left:0.65rem;
+    margin-top:0.6rem;
+}
+.m4-cont li a{
+    display: block;
+    width: 5.4rem;
+    height: 1.3rem;
+    background: #ffbd3d;
+    border-radius: 0.1rem;
+    font-size:0.6rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    line-height:1.3rem;
+}
+.zg-main5{
+    height: 26.7rem;
+    background: url("../images/main5.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main5 .main-tit{
+    background: url("../images/m16.png") no-repeat center;
+    background-size: 15.2rem
+}
+.zg-main5 p{
+    font-size:0.6rem;
+    line-height:1.05rem;
+    color: #fff;
+    margin-left:1.2rem;
+    margin-top:2.25rem;
+    text-indent: 2em;
+}
+.m5-cont{
+    overflow: hidden;
+    margin-left:-0.4rem;
+    width: 18.4rem;
+    margin-top: 7.15rem;
+}
+.m5-cont li{
+    float: left;
+    margin-left:0.65rem;
+    margin-top:0.6rem;
+}
+.m5-cont li a{
+    display: block;
+    width: 5.4rem;
+    height: 1.3rem;
+    background: #ffbd3d;
+    border-radius: 0.1rem;
+    font-size:0.6rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    line-height:1.3rem;
+}
+.zg-main6{
+    height: 15.65rem;
+    background: url("../images/main6.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main6 h2{
+    background: url("../images/m17.png") no-repeat center;
+    background-size: 14.225rem;
+}
+.m6-btn{
+    width: 17.5rem;
+    height: 1.75rem;
+    margin: 0.5rem auto 0;
+}
+.m6-btn li{
+    float: left;
+    margin-left:0.5rem;
+    width: 5.5rem;
+    font-size:0.65rem;
+    line-height:1.75rem;
+    text-align: center;
+    font-weight:bold;
+    color: #ebcf99;
+}
+.m6-btn li:nth-child(1){
+    margin-left:0;
+}
+.m6-btn li.act{
+    background: url("../images/m18.png") no-repeat bottom center;
+    background-size: 5.5rem
+}
+.m6-show{
+    margin-left:0.25rem;
+    margin-top:0.9rem;
+    width:17.625rem;
+    height: 9.0rem;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+.show-box{
+    width:29.375rem;
+    position: absolute;
+    left:0;
+    overflow: hidden;
+}
+.show-box li{
+    float: left;
+    width: 5.875rem;
+}
+.show-box li img{
+    display: block;
+    width: 5.75rem;
+}
+.left{
+    width: 0.75rem;
+    height: 1.175rem;
+    position: absolute;
+    left:0.25rem;
+    top: 3.25rem;
+    background: url("../images/left.png") no-repeat center;
+    background-size: 0.75rem
+}
+.right{
+    width: 0.75rem;
+    height: 1.175rem;
+    position: absolute;
+    right:0.25rem;
+    top: 3.25rem;
+    background: url("../images/right.png") no-repeat center;
+    background-size: 0.75rem
+}
+.zg-main7{
+    height: 21.25rem;
+    background: url("../images/main7.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-main7 h2{
+    background: url("../images/m19.png") no-repeat center;
+    background-size: 17.175rem
+}
+.m7-btn{
+    margin-left:-0.075rem;
+    margin-top:1.0rem;
+    overflow: hidden;
+}
+.m7-btn li{
+    float: left;
+    margin-left:0.325rem;
+    width: 3.25rem;
+    height: 2.275rem;
+    background: url("../images/m20.png") no-repeat center;
+    background-size: 3.25rem;
+    line-height:2.275rem;
+    text-align: center;
+}
+.m7-btn li span{
+    font-size:0.65rem;
+    line-height:0.8rem;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ebcf99;
+}
+.m7-btn li.act3{
+    background: url("../images/m21.png") no-repeat center;
+    background-size: 3.25rem
+}
+.m7-btn li.act3 span{
+    color: #333;
+    font-weight:bold;
+}
+.m7-show{
+    display: block;
+    width: 17.3rem;
+    margin: 1.25rem auto 0.75rem;
+}
+.zg-main7 a{
+    display: block;
+    width: 6.0rem;
+    height: 1.25rem;
+    background: #ffbd3d;
+    border-radius: 0.6rem;
+    margin: 0 auto;
+    font-size:0.6rem;
+    text-align: center;
+    line-height:1.25rem;
+    font-weight:bold;
+    color: #333;
+}
+.zg-main8{
+    height: 20.425rem;
+    background: url("../images/main8.jpg") no-repeat center top;
+    background-size: 18.0rem;
+    padding-bottom:1.7rem;
+}
+.zg-main8 h2{
+    background: url("../images/m27.png") no-repeat center;
+    background-size: 17.475rem
+}
+.m8-cont{
+    margin-top:0.55rem;
+    overflow: hidden;
+}
+.m8-cont li{
+    float: left;
+    margin-left:0.3rem;
+    margin-top:0.5rem;
+}
+.m8-cont li a{
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 4.15rem;
+    height: 1.35rem;
+    border:1px solid #f3d8a5;
+    border-radius: 0.1rem;
+    font-size:0.6rem;
+    line-height:1.35rem;
+    text-align: center;
+    color: #fff;
+}
+.fix{
+    width: 18.0rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 1.7rem;
+    z-index: 9999
+
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 0.6rem;
+    color: #fff;
+    padding-left: 0.5rem;
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    background-size: 1.15rem 1.125rem
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 25% center #e62929;
+    background-size: 1.525rem 1.2rem
+}
+.zixun{
+    position: fixed;
+    right:0;
+    top:50%;
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width:1.425rem;
+}
